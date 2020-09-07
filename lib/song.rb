@@ -36,10 +36,9 @@ class Song
   # If so, increment the value of that key by one, otherwise, create a new key/value pair
   def self.genre_count
     genre_count = {}
-    @@genres.collect do |genre, count|
+    @@genres.each do |genre|
       
     end
-    hash
   end
   
   # returns a hash in which the keys are the names of each artist; same as above?
