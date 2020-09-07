@@ -43,6 +43,7 @@ class Song
         genre_count[genre] = 1
       end
     end
+    genre_count
   end
   
   # returns a hash in which the keys are the names of each artist; same as above?
