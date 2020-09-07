@@ -35,7 +35,7 @@ class Song
   # You will need to check to see if the hash already contains a key of a particular genre
   # If so, increment the value of that key by one, otherwise, create a new key/value pair
   def self.genre_count
-    hash = {}
+    genre_count = {}
     @@genres.collect do |genre, count|
       
     end
